@@ -1,9 +1,8 @@
-namespace Biblioteca.Interfaces
+namespace Biblioteca.Interfaces;
+
+public interface IPessoa
 {
-    public interface IPessoa
-    {
-        string Nome { get; set; }
-        string CPF { get; set; }
-        void ObterIdentificacao();
-    }
+    string Nome { get; set; }
+    string CPF { get; set; }
+    void ObterIdentificacao();
 }
