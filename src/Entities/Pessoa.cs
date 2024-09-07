@@ -13,12 +13,8 @@ public abstract class Pessoa : IPessoa
         CPF = cpf;
     }
     
-    public abstract void ObterIdentificação();
+    public abstract void ObterIdentificacao();
 
-    public void ObterIdentificacao()
-    {
-        throw new NotImplementedException();
-    }
 }
 
 
